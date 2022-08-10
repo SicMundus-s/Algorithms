@@ -58,5 +58,6 @@ public class Queue {
         else // Несвязная последовательность
             return (maxSize-front) + (rear+1);
     }
+    
 
 }
