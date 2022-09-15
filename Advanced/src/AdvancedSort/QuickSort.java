@@ -42,7 +42,7 @@ public class QuickSort {
                 rightIndex--;
             }
         }
-        return leftIndex; // Left дойдёт
+        return leftIndex;
     }
     private static void swap(int array[], int indexOne, int indexTwo) {
         int temp = array[indexOne];
